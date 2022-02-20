@@ -1,0 +1,25 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+pre {
+    background-color: #00000000;
+    white-space: pre-wrap;
+}
+
+#particles-js
+    {
+    background-color: #00000000;
+    position: absolute;
+    top: 50%; left: 50%;
+    z-index: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -55%);
+}
+
+#banner {
+    z-index: 1;
+}
